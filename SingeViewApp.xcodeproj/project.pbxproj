@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E87C744EB197B15923703F31 /* Pods_SingeViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A8FACFBB8FFAFB0FAA0A7 /* Pods_SingeViewApp.framework */; };
 		F134C1BE2A60599100E73121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F134C1BD2A60599100E73121 /* AppDelegate.swift */; };
 		F134C1C02A60599100E73121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F134C1BF2A60599100E73121 /* SceneDelegate.swift */; };
-		F134C1C22A60599100E73121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F134C1C12A60599100E73121 /* ViewController.swift */; };
+		F134C1C22A60599100E73121 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F134C1C12A60599100E73121 /* TaskViewController.swift */; };
 		F134C1C52A60599100E73121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F134C1C32A60599100E73121 /* Main.storyboard */; };
 		F134C1C72A60599300E73121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F134C1C62A60599300E73121 /* Assets.xcassets */; };
 		F134C1CA2A60599300E73121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F134C1C82A60599300E73121 /* LaunchScreen.storyboard */; };
+		F134C1D22A605B6C00E73121 /* TaskTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F134C1D12A605B6C00E73121 /* TaskTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E9E4B6C9BBE21259A06867B /* Pods-SingeViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingeViewApp.debug.xcconfig"; path = "Target Support Files/Pods-SingeViewApp/Pods-SingeViewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7A8FACFBB8FFAFB0FAA0A7 /* Pods_SingeViewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingeViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F134C1BA2A60599100E73121 /* SingeViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingeViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F134C1BD2A60599100E73121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F134C1BF2A60599100E73121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F134C1C12A60599100E73121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F134C1C12A60599100E73121 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		F134C1C42A60599100E73121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F134C1C62A60599300E73121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F134C1C92A60599300E73121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F134C1CB2A60599300E73121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F134C1D12A605B6C00E73121 /* TaskTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableCell.swift; sourceTree = "<group>"; };
+		FBF9DE1BD34F65394B32470C /* Pods-SingeViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingeViewApp.release.xcconfig"; path = "Target Support Files/Pods-SingeViewApp/Pods-SingeViewApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87C744EB197B15923703F31 /* Pods_SingeViewApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64CB9F40D17E71A973244DA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E9E4B6C9BBE21259A06867B /* Pods-SingeViewApp.debug.xcconfig */,
+				FBF9DE1BD34F65394B32470C /* Pods-SingeViewApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1207C020BED493FDCF18721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A8FACFBB8FFAFB0FAA0A7 /* Pods_SingeViewApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F134C1B12A60599100E73121 = {
 			isa = PBXGroup;
 			children = (
 				F134C1BC2A60599100E73121 /* SingeViewApp */,
 				F134C1BB2A60599100E73121 /* Products */,
+				64CB9F40D17E71A973244DA4 /* Pods */,
+				B1207C020BED493FDCF18721 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +84,12 @@
 			children = (
 				F134C1BD2A60599100E73121 /* AppDelegate.swift */,
 				F134C1BF2A60599100E73121 /* SceneDelegate.swift */,
-				F134C1C12A60599100E73121 /* ViewController.swift */,
+				F134C1C12A60599100E73121 /* TaskViewController.swift */,
 				F134C1C32A60599100E73121 /* Main.storyboard */,
 				F134C1C62A60599300E73121 /* Assets.xcassets */,
 				F134C1C82A60599300E73121 /* LaunchScreen.storyboard */,
 				F134C1CB2A60599300E73121 /* Info.plist */,
+				F134C1D12A605B6C00E73121 /* TaskTableCell.swift */,
 			);
 			path = SingeViewApp;
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F134C1CE2A60599300E73121 /* Build configuration list for PBXNativeTarget "SingeViewApp" */;
 			buildPhases = (
+				E8FDE07CE114CEA8B5F511AB /* [CP] Check Pods Manifest.lock */,
 				F134C1B62A60599100E73121 /* Sources */,
 				F134C1B72A60599100E73121 /* Frameworks */,
 				F134C1B82A60599100E73121 /* Resources */,
+				FD693969DEDCF705EC0EF455 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +162,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E8FDE07CE114CEA8B5F511AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingeViewApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD693969DEDCF705EC0EF455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingeViewApp/Pods-SingeViewApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingeViewApp/Pods-SingeViewApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SingeViewApp/Pods-SingeViewApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F134C1B62A60599100E73121 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F134C1C22A60599100E73121 /* ViewController.swift in Sources */,
+				F134C1C22A60599100E73121 /* TaskViewController.swift in Sources */,
 				F134C1BE2A60599100E73121 /* AppDelegate.swift in Sources */,
+				F134C1D22A605B6C00E73121 /* TaskTableCell.swift in Sources */,
 				F134C1C02A60599100E73121 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +354,7 @@
 		};
 		F134C1CF2A60599300E73121 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9E4B6C9BBE21259A06867B /* Pods-SingeViewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		F134C1D02A60599300E73121 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF9DE1BD34F65394B32470C /* Pods-SingeViewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
