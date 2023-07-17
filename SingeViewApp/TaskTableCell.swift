@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 
-class TaskTableCell: UITableViewCell {
+final class TaskTableCell: UITableViewCell {
     
     // MARK: - UI Elements
     
