@@ -23,6 +23,8 @@ final class TaskViewController: UIViewController {
     }()
     
     private var tasks = [String]()
+
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
